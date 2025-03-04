@@ -1,0 +1,11 @@
+ProxyUrlDisplayFlags=9
+
+[Proxy Settings]
+NoProxyFor=localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1
+Proxy Config Script=http://127.0.0.1:33331/commands/pac
+ProxyType=1
+ReversedException=false
+ftpProxy=
+httpProxy=http://127.0.0.1 7890
+httpsProxy=http://127.0.0.1 7890
+socksProxy=socks://127.0.0.1 7890
