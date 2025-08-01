@@ -1,0 +1,6 @@
+configuration {
+    font: "Source Sans Pro 12";
+    show-icons: true;
+    display-window: "Window";
+    display-drun: "Search";
+}

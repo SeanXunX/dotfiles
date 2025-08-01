@@ -1,0 +1,141 @@
+* {
+    text-shadow: none;
+}
+
+window#waybar {
+    /* Large size for shorter side padding*/
+    /* border-radius: 100px */
+    background-color: transparent;
+}
+
+.modules-left {
+    border-radius: 100px;
+    background-color: rgba(18, 18, 18, 0.8);
+    padding: 0 8px;
+}
+
+.modules-center {
+    border-radius: 100px;
+    background-color: rgba(18, 18, 18, 0.8);
+}
+
+.modules-right {
+    border-radius: 100px;
+    background-color: rgba(18, 18, 18, 0.8);
+    padding: 0 8px;
+}
+
+tooltip {
+    background-color: rgba(18, 18, 18, 1.0);
+    border: 1px solid rgba(34, 34, 34, 0.5);
+    border-radius: 15px;
+
+    font-family: "JetBrainsMono NF SemiBold";
+    font-size: 12px;
+}
+
+#custom-lock,
+#battery,
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#window,
+#workspaces {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 6px 0px 6px;
+    background-color: transparent;
+
+    font-family: "JetBrainsMono NF SemiBold";
+    font-size: 12px;
+}
+
+#workspaces {
+    /* border: rgba(255, 255, 255, 0.2) solid 2px; */
+    padding: 1px 6px;
+
+    transition-property: background, color, border;
+    transition-duration: 0.2s;
+}
+
+#workspaces button {
+    border: none;
+    border-radius: 0px;
+    padding: 0px 0px;
+    background: transparent;
+    color: #ffffff;
+    margin: 0 3px;
+    min-width: 18px;
+
+    transition-property: background, color, border, margin, padding;
+    transition-duration: 0.2s;
+}
+
+#workspaces button:hover {
+    /* background: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#workspaces button.empty {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+#workspaces button.active {
+    /* background: #ffffff; */
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 0px;
+    /* padding: 0 4px; */
+}
+
+#workspaces button.urgent {
+    color: #eb4d4b;
+    border-bottom: 2px solid #eb4d4b;
+}
+
+#mode {
+    background-color: #64727D;
+    border-bottom: 1px solid #ffffff;
+}
+
+#clock {
+    color: #eefff1;
+}
+
+#cpu {
+    color: #FE968B;
+}
+
+#memory {
+    color: #FFEAAA;
+}
+
+#pulseaudio {
+    color: #a4e4fe;
+}
+
+#network {
+    color: #b0f5e5;
+}
+
+#tray {
+    /* border: rgba(255, 255, 255, 0.2) solid 2px; */
+    color: #ffffff;
+}
+
+#window {
+    color: #e6f2d6;
+    margin-left: 4px;
+}
+
+#battery {
+    color: #eefff1
+}
+
+#custom-lock {
+    color: #ffa500;
+}
